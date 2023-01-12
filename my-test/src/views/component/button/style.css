@@ -1,0 +1,13 @@
+.btn-bottom {
+  margin-top: 28px;
+  text-align: center;
+}
+.btn-bottom button {
+  background: linear-gradient(32.95deg, #ffcc21 8.75%, #ff963c 86.64%);
+  border: none;
+  padding: 14px 5px;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #fff;
+  width: 32%;
+}
