@@ -1,0 +1,173 @@
+.content-wrap-my-record {
+  padding: 56px 160px;
+}
+.my-record-record1,
+.my-record-record2,
+.my-record-record3,
+.my-record-record4 {
+  margin-bottom: 56px;
+}
+.record1-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.my-record-record1 .box {
+  background: #ffcc21;
+  width: 295px;
+  height: 295px;
+  position: relative;
+}
+.my-record-record1 .box-wrap {
+  width: 240px;
+  height: 240px;
+}
+.my-record-record1 .box-img {
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.my-record-record1 img {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+}
+.record1-title,
+.record1-sub {
+  position: absolute;
+  color: #ffcc21;
+  font-weight: 500;
+  font-size: 25px;
+  top: 102px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.record1-sub {
+  background: #ff963c;
+  top: 140px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  width: 180px;
+  padding: 4px 5px;
+  margin: auto;
+}
+
+.my-record-record2 .box {
+  background: #414141;
+  padding: 16px 24px;
+}
+.my-record-record2 .box-top {
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 11px;
+  text-align: start;
+}
+.my-record-record2 .box-mid img {
+  width: 100%;
+}
+.box-top .body-record {
+  margin-right: 30px;
+}
+.my-record-record2 .box-bot {
+  text-align: start;
+}
+.my-record-record2 .box-bot button {
+  background: #ffffff;
+  border-radius: 11px;
+  border: none;
+  color: #ffcc21;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 3px 24px;
+  margin-right: 16px;
+}
+.my-record-record2 .box-bot button:hover {
+  color: #ffffff;
+  background: #ffcc21;
+}
+
+.my-record-record3 .box {
+  background: #414141;
+  padding: 16px 24px;
+}
+
+.my-record-record3 .box-top {
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 11px;
+  text-align: start;
+}
+.my-record-record3 .box-mid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+  overflow: auto;
+  height: 300px;
+}
+.box-my-exe {
+  width: 47%;
+  color: #fff;
+  font-weight: 300;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  line-height: 2;
+  border-bottom: 1px solid #777777;
+}
+.box-my-exe ::before {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #fff;
+  top: 13px;
+  left: -14px;
+  border-radius: 50%;
+}
+.exe-kcal {
+  text-align: start;
+  color: #ffcc21;
+  font-weight: 400;
+}
+.exe-min {
+  color: #ffcc21;
+  font-weight: 400;
+}
+.diary-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.diary-box {
+  width: 20%;
+  margin: 0 12px 12px 0;
+  padding: 16px;
+  background: #ffffff;
+  border: 2px solid #707070;
+}
+.diary-date,
+.diary-time {
+  text-align: start;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #414141;
+}
+.diary-time {
+  margin-bottom: 8px;
+}
+.diary-sub {
+  font-weight: 300;
+  font-size: 12px;
+  color: #414141;
+}

@@ -1,0 +1,12 @@
+.content {
+  margin-top: 68px;
+}
+.move-top {
+  position: fixed;
+  top: 50%;
+  right: 14px;
+  z-index: 99;
+}
+li {
+  cursor: default;
+}
