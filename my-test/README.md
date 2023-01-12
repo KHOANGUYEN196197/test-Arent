@@ -1,10 +1,10 @@
-đây là một website về quản lý sức khỏe. sử dung react 18.2, chạy trên node 16.17 bảo gồm 3 trang là trang TopPage, my record, column page
+This is a website about health management. Using react 18.2, running on node 16.17, including 3 pages: TopPage, my record, column page
 
-1. column page hiển thị khi mới vào trang
-2. my record hiển thị khi bấm vào nút '自分の記録'
-3. toppage hiển thị khi bấm nào nút 'ログインする' trong menu xổ xuống
+1. column page displayed when first entering the page
+2. my record is displayed when '自分の記録' button is clicked
+3. toppage is displayed when pressing the 'ログインする' button in the drop-down menu
 
-hướng dẫn chạy project
+project run instructions
 b1: npm i
 b2: npm start
 b3: live on http://localhost:3000 or ipconfig:3000
